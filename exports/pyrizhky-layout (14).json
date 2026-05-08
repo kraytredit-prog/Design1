@@ -1,0 +1,1734 @@
+{
+  "version": 9,
+  "items": [
+    {
+      "templateId": "wall",
+      "position": [
+        -4.45,
+        0,
+        1.45
+      ],
+      "rotation": [
+        0,
+        1.5708,
+        0
+      ],
+      "scale": [
+        1,
+        0.9917,
+        1
+      ],
+      "options": {
+        "length": 11.4,
+        "height": 4.8
+      }
+    },
+    {
+      "templateId": "wall",
+      "position": [
+        4.55,
+        0,
+        3.3947
+      ],
+      "rotation": [
+        0,
+        -1.5708,
+        0
+      ],
+      "scale": [
+        0.6675,
+        0.9812,
+        1
+      ],
+      "options": {
+        "length": 11.4,
+        "height": 4.8
+      }
+    },
+    {
+      "templateId": "wall",
+      "position": [
+        -2.4218,
+        0,
+        -4.25
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4733,
+        0.1792,
+        1
+      ],
+      "options": {
+        "length": 9,
+        "height": 4.8
+      }
+    },
+    {
+      "templateId": "lowWall",
+      "position": [
+        -2.665,
+        0,
+        7.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        0.6174,
+        1
+      ],
+      "options": {
+        "length": 3.57,
+        "height": 1.15
+      }
+    },
+    {
+      "templateId": "wall",
+      "position": [
+        -3.69,
+        0,
+        -0.3586
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.3279,
+        0.9917,
+        1
+      ],
+      "options": {
+        "length": 4.3,
+        "height": 4.8
+      }
+    },
+    {
+      "templateId": "boxFixture",
+      "position": [
+        0.3967,
+        -0.0827,
+        -4.25
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {
+        "width": 1.3699999999999999,
+        "height": 0.1,
+        "depth": 0.18,
+        "baseY": 2.4,
+        "materialId": "darkWood"
+      }
+    },
+    {
+      "templateId": "boxFixture",
+      "position": [
+        -0.2577,
+        0,
+        -4.25
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {
+        "width": 0.1,
+        "height": 2.35,
+        "depth": 0.2,
+        "baseY": 0,
+        "materialId": "darkWood"
+      }
+    },
+    {
+      "templateId": "boxFixture",
+      "position": [
+        1.04,
+        0,
+        -4.25
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {
+        "width": 0.1,
+        "height": 2.35,
+        "depth": 0.2,
+        "baseY": 0,
+        "materialId": "darkWood"
+      }
+    },
+    {
+      "templateId": "boxFixture",
+      "position": [
+        0,
+        0,
+        7.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {
+        "width": 2.1,
+        "height": 0.1,
+        "depth": 0.28,
+        "baseY": 0,
+        "materialId": "darkWood"
+      }
+    },
+    {
+      "templateId": "marmit",
+      "position": [
+        -1.8136,
+        0.2198,
+        -0.1
+      ],
+      "rotation": [
+        0,
+        -0.0009,
+        0
+      ],
+      "scale": [
+        0.74,
+        0.7704,
+        0.5329
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "menuScroll",
+      "position": [
+        -4.35,
+        3.0856,
+        2.9179
+      ],
+      "rotation": [
+        0,
+        1.5708,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {
+        "title": "Menu",
+        "items": [
+          {
+            "label": "Meat pie",
+            "price": "79"
+          },
+          {
+            "label": "Potato pie",
+            "price": "65"
+          },
+          {
+            "label": "Cabbage pie",
+            "price": "62"
+          },
+          {
+            "label": "Uzvar",
+            "price": "48"
+          }
+        ]
+      }
+    },
+    {
+      "templateId": "menuScroll",
+      "position": [
+        -4.35,
+        3.0858,
+        4.6
+      ],
+      "rotation": [
+        0,
+        1.5708,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {
+        "title": "Season",
+        "items": [
+          {
+            "label": "Cheese pie",
+            "price": "92"
+          },
+          {
+            "label": "Berry tart",
+            "price": "89"
+          },
+          {
+            "label": "Soup",
+            "price": "95"
+          },
+          {
+            "label": "Filter coffee",
+            "price": "55"
+          }
+        ]
+      }
+    },
+    {
+      "templateId": "menuScroll",
+      "position": [
+        4.45,
+        3.0937,
+        3
+      ],
+      "rotation": [
+        0,
+        -1.5708,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {
+        "title": "Breakfast",
+        "items": [
+          {
+            "label": "Syrnyky",
+            "price": "118"
+          },
+          {
+            "label": "Omelet",
+            "price": "96"
+          },
+          {
+            "label": "Latte",
+            "price": "68"
+          },
+          {
+            "label": "Cocoa",
+            "price": "62"
+          }
+        ]
+      }
+    },
+    {
+      "templateId": "sconce",
+      "position": [
+        -4.2086,
+        4.3,
+        2.9172
+      ],
+      "rotation": [
+        1.5708,
+        0.0641,
+        -1.5708
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "sconce",
+      "position": [
+        -4.2118,
+        4.3,
+        4.6
+      ],
+      "rotation": [
+        1.5485,
+        0.2682,
+        -1.5321
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "table4",
+      "position": [
+        0.6342,
+        0,
+        3.6429
+      ],
+      "rotation": [
+        0,
+        -1.5704,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "table4",
+      "position": [
+        -2.5856,
+        0,
+        2.919
+      ],
+      "rotation": [
+        0,
+        1.5708,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "counterSide",
+      "position": [
+        -1.3548,
+        0,
+        -2.5663
+      ],
+      "rotation": [
+        0,
+        3.1416,
+        0
+      ],
+      "scale": [
+        1.2105,
+        1,
+        1.5513
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "wall",
+      "position": [
+        1.7881,
+        0,
+        -4.25
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5875,
+        1.5867,
+        1
+      ],
+      "options": {
+        "length": 2.4,
+        "height": 3,
+        "thickness": 0.18,
+        "materialId": "plaster",
+        "baseboard": true,
+        "baseboardMaterialId": "darkWood",
+        "baseboardHeight": 0.16,
+        "baseboardDepth": 0.08
+      }
+    },
+    {
+      "templateId": "wall",
+      "position": [
+        2.02,
+        0,
+        -0.3619
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        2.1292,
+        1.57,
+        1
+      ],
+      "options": {
+        "length": 2.4,
+        "height": 3,
+        "thickness": 0.18,
+        "materialId": "plaster",
+        "baseboard": true,
+        "baseboardMaterialId": "darkWood",
+        "baseboardHeight": 0.16,
+        "baseboardDepth": 0.08
+      }
+    },
+    {
+      "templateId": "wall",
+      "position": [
+        2.5106,
+        0,
+        -2.338
+      ],
+      "rotation": [
+        0,
+        -1.5708,
+        0
+      ],
+      "scale": [
+        0.343,
+        0.9812,
+        1
+      ],
+      "options": {
+        "length": 11.4,
+        "height": 4.8
+      }
+    },
+    {
+      "templateId": "wall",
+      "position": [
+        3.9727,
+        0,
+        0.4483
+      ],
+      "rotation": [
+        0,
+        -0.0214,
+        0
+      ],
+      "scale": [
+        0.4208,
+        1.57,
+        9.2222
+      ],
+      "options": {
+        "length": 2.4,
+        "height": 3,
+        "thickness": 0.18,
+        "materialId": "plaster",
+        "baseboard": true,
+        "baseboardMaterialId": "darkWood",
+        "baseboardHeight": 0.16,
+        "baseboardDepth": 0.08
+      }
+    },
+    {
+      "templateId": "wall",
+      "position": [
+        1.5108,
+        0,
+        0.4627
+      ],
+      "rotation": [
+        0,
+        1.5704,
+        0
+      ],
+      "scale": [
+        0.6292,
+        1.57,
+        1
+      ],
+      "options": {
+        "length": 2.4,
+        "height": 3,
+        "thickness": 0.18,
+        "materialId": "plaster",
+        "baseboard": true,
+        "baseboardMaterialId": "darkWood",
+        "baseboardHeight": 0.16,
+        "baseboardDepth": 0.08
+      }
+    },
+    {
+      "templateId": "wall",
+      "position": [
+        3.2084,
+        0,
+        1.1752
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4625,
+        1.57,
+        1
+      ],
+      "options": {
+        "length": 2.4,
+        "height": 3,
+        "thickness": 0.18,
+        "materialId": "plaster",
+        "baseboard": true,
+        "baseboardMaterialId": "darkWood",
+        "baseboardHeight": 0.16,
+        "baseboardDepth": 0.08
+      }
+    },
+    {
+      "templateId": "boxFixture",
+      "position": [
+        2.7217,
+        0.0466,
+        1.1659
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        0.9077,
+        1
+      ],
+      "options": {
+        "width": 0.22,
+        "height": 2.6,
+        "depth": 0.22,
+        "baseY": 0,
+        "materialId": "darkWood"
+      }
+    },
+    {
+      "templateId": "boxFixture",
+      "position": [
+        1.5374,
+        0,
+        1.1515
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        0.9462,
+        1
+      ],
+      "options": {
+        "width": 0.22,
+        "height": 2.6,
+        "depth": 0.22,
+        "baseY": 0,
+        "materialId": "darkWood"
+      }
+    },
+    {
+      "templateId": "boxFixture",
+      "position": [
+        2.4848,
+        0,
+        1.1149
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {
+        "width": 2.1,
+        "height": 0.1,
+        "depth": 0.28,
+        "baseY": 0,
+        "materialId": "darkWood"
+      }
+    },
+    {
+      "templateId": "boxFixture",
+      "position": [
+        2.1324,
+        -0.0363,
+        1.1962
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {
+        "width": 1.3699999999999999,
+        "height": 0.1,
+        "depth": 0.18,
+        "baseY": 2.4,
+        "materialId": "darkWood"
+      }
+    },
+    {
+      "templateId": "table4",
+      "position": [
+        2.7342,
+        0,
+        6.1265
+      ],
+      "rotation": [
+        0,
+        -1.5544,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "table4",
+      "position": [
+        -2.6617,
+        0,
+        6.2107
+      ],
+      "rotation": [
+        0,
+        -1.5544,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "floorSurface",
+      "position": [
+        0.05,
+        0,
+        1.45
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0011,
+        1,
+        1
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "facadeWindow",
+      "position": [
+        -2.78,
+        0.6213,
+        7.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1.1953,
+        1
+      ],
+      "options": {
+        "width": 1.35,
+        "height": 2.55,
+        "depth": 0.12,
+        "frameThickness": 0.08
+      }
+    },
+    {
+      "templateId": "facadeDoor",
+      "position": [
+        0,
+        0,
+        7.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {
+        "width": 1.76,
+        "height": 2.85,
+        "depth": 0.12,
+        "frameThickness": 0.08,
+        "transomHeight": 0.52,
+        "sideLiteWidth": 0.58
+      }
+    },
+    {
+      "templateId": "lowWall",
+      "position": [
+        2.7154,
+        0,
+        7.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0252,
+        0.6174,
+        1
+      ],
+      "options": {
+        "length": 3.57,
+        "height": 1.15
+      }
+    },
+    {
+      "templateId": "wall",
+      "position": [
+        0.01,
+        2.8332,
+        7.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.775,
+        0.6433,
+        1
+      ],
+      "options": {
+        "length": 2.4,
+        "height": 3,
+        "thickness": 0.18,
+        "materialId": "plaster",
+        "baseboard": true,
+        "baseboardMaterialId": "darkWood",
+        "baseboardHeight": 0.16,
+        "baseboardDepth": 0.08
+      }
+    },
+    {
+      "templateId": "facadeWindow",
+      "position": [
+        2.8217,
+        0.6213,
+        7.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1.1953,
+        1
+      ],
+      "options": {
+        "width": 1.35,
+        "height": 2.55,
+        "depth": 0.12,
+        "frameThickness": 0.08
+      }
+    },
+    {
+      "templateId": "wall",
+      "position": [
+        1.4825,
+        0,
+        7.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5458,
+        1,
+        1
+      ],
+      "options": {
+        "length": 2.4,
+        "height": 3,
+        "thickness": 0.18,
+        "materialId": "plaster",
+        "baseboard": true,
+        "baseboardMaterialId": "darkWood",
+        "baseboardHeight": 0.16,
+        "baseboardDepth": 0.08
+      }
+    },
+    {
+      "templateId": "wall",
+      "position": [
+        -1.4907,
+        0,
+        7.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5458,
+        1,
+        1
+      ],
+      "options": {
+        "length": 2.4,
+        "height": 3,
+        "thickness": 0.18,
+        "materialId": "plaster",
+        "baseboard": true,
+        "baseboardMaterialId": "darkWood",
+        "baseboardHeight": 0.16,
+        "baseboardDepth": 0.08
+      }
+    },
+    {
+      "templateId": "wall",
+      "position": [
+        4.0403,
+        0,
+        7.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4833,
+        1.5867,
+        1
+      ],
+      "options": {
+        "length": 2.4,
+        "height": 3,
+        "thickness": 0.18,
+        "materialId": "plaster",
+        "baseboard": true,
+        "baseboardMaterialId": "darkWood",
+        "baseboardHeight": 0.16,
+        "baseboardDepth": 0.08
+      }
+    },
+    {
+      "templateId": "wall",
+      "position": [
+        -4.0015,
+        0,
+        7.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4833,
+        1.5867,
+        1
+      ],
+      "options": {
+        "length": 2.4,
+        "height": 3,
+        "thickness": 0.18,
+        "materialId": "plaster",
+        "baseboard": true,
+        "baseboardMaterialId": "darkWood",
+        "baseboardHeight": 0.16,
+        "baseboardDepth": 0.08
+      }
+    },
+    {
+      "templateId": "wall",
+      "position": [
+        2.707,
+        3.647,
+        7.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        0.37,
+        1
+      ],
+      "options": {
+        "length": 2.4,
+        "height": 3,
+        "thickness": 0.18,
+        "materialId": "plaster",
+        "baseboard": true,
+        "baseboardMaterialId": "darkWood",
+        "baseboardHeight": 0.16,
+        "baseboardDepth": 0.08
+      }
+    },
+    {
+      "templateId": "wall",
+      "position": [
+        -2.7574,
+        3.6552,
+        7.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        0.37,
+        1
+      ],
+      "options": {
+        "length": 2.4,
+        "height": 3,
+        "thickness": 0.18,
+        "materialId": "plaster",
+        "baseboard": true,
+        "baseboardMaterialId": "darkWood",
+        "baseboardHeight": 0.16,
+        "baseboardDepth": 0.08
+      }
+    },
+    {
+      "templateId": "menuScroll",
+      "position": [
+        4.45,
+        3.0739,
+        5.8435
+      ],
+      "rotation": [
+        0,
+        -1.5708,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {
+        "title": "Breakfast",
+        "items": [
+          {
+            "label": "Syrnyky",
+            "price": "118"
+          },
+          {
+            "label": "Omelet",
+            "price": "96"
+          },
+          {
+            "label": "Latte",
+            "price": "68"
+          },
+          {
+            "label": "Cocoa",
+            "price": "62"
+          }
+        ]
+      }
+    },
+    {
+      "templateId": "menuScroll",
+      "position": [
+        4.45,
+        3.0739,
+        4.4422
+      ],
+      "rotation": [
+        0,
+        -1.5708,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {
+        "title": "Breakfast",
+        "items": [
+          {
+            "label": "Syrnyky",
+            "price": "118"
+          },
+          {
+            "label": "Omelet",
+            "price": "96"
+          },
+          {
+            "label": "Latte",
+            "price": "68"
+          },
+          {
+            "label": "Cocoa",
+            "price": "62"
+          }
+        ]
+      }
+    },
+    {
+      "templateId": "sconce",
+      "position": [
+        4.45,
+        4.3,
+        4.437
+      ],
+      "rotation": [
+        1.5708,
+        -0.545,
+        1.5708
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "sconce",
+      "position": [
+        4.45,
+        4.3,
+        5.8434
+      ],
+      "rotation": [
+        1.5708,
+        -0.545,
+        1.5708
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "sconce",
+      "position": [
+        4.45,
+        4.3,
+        3.0245
+      ],
+      "rotation": [
+        1.5708,
+        -0.545,
+        1.5708
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "menuScroll",
+      "position": [
+        -4.3405,
+        3.1016,
+        1.3481
+      ],
+      "rotation": [
+        0,
+        1.5708,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {
+        "title": "Menu",
+        "items": [
+          {
+            "label": "Meat pie",
+            "price": "79"
+          },
+          {
+            "label": "Potato pie",
+            "price": "65"
+          },
+          {
+            "label": "Cabbage pie",
+            "price": "62"
+          },
+          {
+            "label": "Uzvar",
+            "price": "48"
+          }
+        ]
+      }
+    },
+    {
+      "templateId": "sconce",
+      "position": [
+        -4.2108,
+        4.3,
+        1.288
+      ],
+      "rotation": [
+        1.5501,
+        0.1208,
+        -1.6678
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "wall",
+      "position": [
+        0.0261,
+        2.4016,
+        -4.2477
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.3792,
+        0.7867,
+        1
+      ],
+      "options": {
+        "length": 2.4,
+        "height": 3,
+        "thickness": 0.18,
+        "materialId": "plaster",
+        "baseboard": true,
+        "baseboardMaterialId": "darkWood",
+        "baseboardHeight": 0.16,
+        "baseboardDepth": 0.08
+      }
+    },
+    {
+      "templateId": "facadeWindow",
+      "position": [
+        -2.6614,
+        0.7446,
+        -4.25
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.5455,
+        1.1953,
+        0.8
+      ],
+      "options": {
+        "width": 1.35,
+        "height": 2.55,
+        "depth": 0.12,
+        "frameThickness": 0.08
+      }
+    },
+    {
+      "templateId": "wall",
+      "position": [
+        -0.948,
+        0.846,
+        -4.25
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5667,
+        0.5533,
+        1
+      ],
+      "options": {
+        "length": 2.4,
+        "height": 3,
+        "thickness": 0.18,
+        "materialId": "plaster",
+        "baseboard": true,
+        "baseboardMaterialId": "darkWood",
+        "baseboardHeight": 0.16,
+        "baseboardDepth": 0.08
+      }
+    },
+    {
+      "templateId": "wall",
+      "position": [
+        -2.8614,
+        3.7589,
+        -4.2433
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.3792,
+        0.3367,
+        1
+      ],
+      "options": {
+        "length": 2.4,
+        "height": 3,
+        "thickness": 0.18,
+        "materialId": "plaster",
+        "baseboard": true,
+        "baseboardMaterialId": "darkWood",
+        "baseboardHeight": 0.16,
+        "baseboardDepth": 0.08
+      }
+    },
+    {
+      "templateId": "wall",
+      "position": [
+        -4.1286,
+        0,
+        -4.25
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.3375,
+        1.5867,
+        1
+      ],
+      "options": {
+        "length": 2.4,
+        "height": 3,
+        "thickness": 0.18,
+        "materialId": "plaster",
+        "baseboard": true,
+        "baseboardMaterialId": "darkWood",
+        "baseboardHeight": 0.16,
+        "baseboardDepth": 0.08
+      }
+    },
+    {
+      "templateId": "wall",
+      "position": [
+        2.6243,
+        2.4625,
+        1.1773
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        0.7533,
+        1
+      ],
+      "options": {
+        "length": 2.4,
+        "height": 3,
+        "thickness": 0.18,
+        "materialId": "plaster",
+        "baseboard": true,
+        "baseboardMaterialId": "darkWood",
+        "baseboardHeight": 0.16,
+        "baseboardDepth": 0.08
+      }
+    },
+    {
+      "templateId": "windowPlanter",
+      "position": [
+        4.3406,
+        0.9492,
+        3.6426
+      ],
+      "rotation": [
+        0,
+        -1.5571,
+        0
+      ],
+      "scale": [
+        1,
+        0.5813,
+        1
+      ],
+      "options": {
+        "width": 1.52,
+        "height": 0.42,
+        "depth": 0.34
+      }
+    },
+    {
+      "templateId": "windowPlanter",
+      "position": [
+        4.3625,
+        0.9492,
+        4.8183
+      ],
+      "rotation": [
+        0,
+        -1.5571,
+        0
+      ],
+      "scale": [
+        1,
+        0.6361,
+        1
+      ],
+      "options": {
+        "width": 1.52,
+        "height": 0.42,
+        "depth": 0.34
+      }
+    },
+    {
+      "templateId": "windowPlanter",
+      "position": [
+        4.3551,
+        0.9578,
+        6.0672
+      ],
+      "rotation": [
+        0,
+        -1.5706,
+        0
+      ],
+      "scale": [
+        1,
+        0.6636,
+        1
+      ],
+      "options": {
+        "width": 1.52,
+        "height": 0.42,
+        "depth": 0.34
+      }
+    },
+    {
+      "templateId": "kitchenSink",
+      "position": [
+        0.7872,
+        0.0485,
+        -1.1
+      ],
+      "rotation": [
+        0,
+        3.1308,
+        0
+      ],
+      "scale": [
+        0.84,
+        1,
+        0.8684
+      ],
+      "options": {
+        "width": 1.45,
+        "depth": 0.72
+      }
+    },
+    {
+      "templateId": "pastryLine",
+      "position": [
+        1.9902,
+        0,
+        -2.6428
+      ],
+      "rotation": [
+        0,
+        -1.567,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {
+        "width": 2.95,
+        "depth": 0.84
+      }
+    },
+    {
+      "templateId": "cloudChandelier",
+      "position": [
+        -0.1976,
+        3.292,
+        4.0643
+      ],
+      "rotation": [
+        0,
+        1.5708,
+        0
+      ],
+      "scale": [
+        0.8795,
+        1,
+        1.5293
+      ],
+      "options": {
+        "width": 2.45,
+        "height": 1.05,
+        "depth": 1.02
+      }
+    },
+    {
+      "templateId": "cloudChandelier",
+      "position": [
+        -2.7423,
+        3.292,
+        4.1199
+      ],
+      "rotation": [
+        0,
+        1.5708,
+        0
+      ],
+      "scale": [
+        0.8795,
+        1,
+        1.5293
+      ],
+      "options": {
+        "width": 2.45,
+        "height": 1.05,
+        "depth": 1.02
+      }
+    },
+    {
+      "templateId": "cloudChandelier",
+      "position": [
+        2.3881,
+        3.292,
+        4.1034
+      ],
+      "rotation": [
+        0,
+        1.5708,
+        0
+      ],
+      "scale": [
+        0.8795,
+        1,
+        1.5293
+      ],
+      "options": {
+        "width": 2.45,
+        "height": 1.05,
+        "depth": 1.02
+      }
+    },
+    {
+      "templateId": "windowPlanter",
+      "position": [
+        -4.2478,
+        0.9578,
+        5.9551
+      ],
+      "rotation": [
+        0,
+        1.571,
+        0
+      ],
+      "scale": [
+        1,
+        0.6636,
+        1
+      ],
+      "options": {
+        "width": 1.52,
+        "height": 0.42,
+        "depth": 0.34
+      }
+    },
+    {
+      "templateId": "windowPlanter",
+      "position": [
+        -4.2259,
+        0.9566,
+        4.5506
+      ],
+      "rotation": [
+        0,
+        1.571,
+        0
+      ],
+      "scale": [
+        1,
+        0.6636,
+        1
+      ],
+      "options": {
+        "width": 1.52,
+        "height": 0.42,
+        "depth": 0.34
+      }
+    },
+    {
+      "templateId": "windowPlanter",
+      "position": [
+        -4.2156,
+        0.9566,
+        1.5799
+      ],
+      "rotation": [
+        0,
+        1.571,
+        0
+      ],
+      "scale": [
+        1,
+        0.6636,
+        1
+      ],
+      "options": {
+        "width": 1.52,
+        "height": 0.42,
+        "depth": 0.34
+      }
+    },
+    {
+      "templateId": "windowPlanter",
+      "position": [
+        -4.2182,
+        0.9566,
+        3.0567
+      ],
+      "rotation": [
+        0,
+        1.571,
+        0
+      ],
+      "scale": [
+        1,
+        0.6636,
+        1
+      ],
+      "options": {
+        "width": 1.52,
+        "height": 0.42,
+        "depth": 0.34
+      }
+    },
+    {
+      "templateId": "windowPlanter",
+      "position": [
+        -4.2147,
+        0.9566,
+        0.7256
+      ],
+      "rotation": [
+        0,
+        1.571,
+        0
+      ],
+      "scale": [
+        1,
+        0.6636,
+        1
+      ],
+      "options": {
+        "width": 1.52,
+        "height": 0.42,
+        "depth": 0.34
+      }
+    },
+    {
+      "templateId": "windowPlanter",
+      "position": [
+        4.3217,
+        0.9492,
+        2.5992
+      ],
+      "rotation": [
+        0,
+        -1.5571,
+        0
+      ],
+      "scale": [
+        1,
+        0.5813,
+        1
+      ],
+      "options": {
+        "width": 1.52,
+        "height": 0.42,
+        "depth": 0.34
+      }
+    }
+  ]
+}
