@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pyrizhky.ua Interior</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="app" aria-label="3D interior scene"></main>
+    <section class="hud" aria-label="Scene controls">
+      <div class="hud__group" role="group" aria-label="View presets">
+        <button type="button" class="hud__button" data-view="entrance">Entrance</button>
+        <button type="button" class="hud__button" data-view="marmit">Marmit</button>
+        <button type="button" class="hud__button" data-view="kitchen">Kitchen</button>
+        <button type="button" class="hud__button" data-view="plan">Plan</button>
+      </div>
+      <div class="hud__group" role="group" aria-label="Export models">
+        <button type="button" class="hud__button hud__button--accent" id="export-glb">Export GLB</button>
+        <button type="button" class="hud__button hud__button--accent" id="export-obj">Export OBJ</button>
+      </div>
+      <div class="hud__divider" aria-hidden="true"></div>
+      <div class="hud__label">Designs</div>
+      <div class="hud__row">
+        <select id="design-select" class="hud__select" aria-label="Ready-made designs"></select>
+        <button type="button" class="hud__button hud__button--accent" id="load-design">Load</button>
+      </div>
+      <div class="hud__group" role="group" aria-label="Design import">
+        <button type="button" class="hud__button" id="import-design">Import JSON</button>
+      </div>
+      <div class="hud__constructor" hidden>
+        <div class="hud__divider" aria-hidden="true"></div>
+        <div class="hud__label">Constructor</div>
+        <div class="hud__row">
+          <select id="catalog-select" class="hud__select" aria-label="Item catalog"></select>
+          <button type="button" class="hud__button hud__button--accent" id="add-item">Add</button>
+        </div>
+        <div class="hud__group" role="group" aria-label="Edit mode">
+          <button type="button" class="hud__button" id="mode-move">Move</button>
+          <button type="button" class="hud__button" id="mode-rotate">Rotate</button>
+          <button type="button" class="hud__button" id="rotate-quarter">Rotate 90deg</button>
+          <button type="button" class="hud__button" id="duplicate-item">Duplicate</button>
+          <button type="button" class="hud__button" id="delete-item">Delete</button>
+        </div>
+        <div class="hud__group" role="group" aria-label="Layout controls">
+          <button type="button" class="hud__button" id="save-layout">Save Layout</button>
+          <button type="button" class="hud__button" id="load-layout">Load Layout</button>
+          <button type="button" class="hud__button" id="reset-layout">Reset Layout</button>
+        </div>
+        <div class="hud__divider" aria-hidden="true"></div>
+        <div class="hud__label">Dimensions</div>
+        <div class="hud__size-grid" aria-label="Selected item dimensions">
+          <label class="hud__field">
+            <span class="hud__field-label">Length</span>
+            <input
+              type="number"
+              id="size-x"
+              class="hud__input"
+              min="0.01"
+              step="0.05"
+              inputmode="decimal"
+              disabled
+            />
+          </label>
+          <label class="hud__field">
+            <span class="hud__field-label">Height</span>
+            <input
+              type="number"
+              id="size-y"
+              class="hud__input"
+              min="0.01"
+              step="0.05"
+              inputmode="decimal"
+              disabled
+            />
+          </label>
+          <label class="hud__field">
+            <span class="hud__field-label">Width</span>
+            <input
+              type="number"
+              id="size-z"
+              class="hud__input"
+              min="0.01"
+              step="0.05"
+              inputmode="decimal"
+              disabled
+            />
+          </label>
+        </div>
+        <div class="hud__meta" id="selection-label">No selection</div>
+        <input type="file" id="layout-file" accept=".json,application/json" hidden />
+      </div>
+      <output id="export-status" class="hud__status" aria-live="polite"></output>
+      <input type="file" id="design-file" accept=".json,application/json" hidden />
+    </section>
+    <noscript>JavaScript is required to view this 3D scene.</noscript>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.164.1/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.164.1/examples/jsm/"
+        }
+      }
+    </script>
+    <script type="module" src="scene.js"></script>
+  </body>
+</html>

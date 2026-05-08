@@ -1,0 +1,221 @@
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #ddd0bd;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  color: #221a14;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+.hud {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 3;
+  display: grid;
+  gap: 0.625rem;
+  width: min(24rem, calc(100vw - 2rem));
+  max-height: calc(100vh - 2rem);
+  overflow-y: auto;
+  padding: 0.875rem;
+  background: rgba(245, 237, 226, 0.92);
+  border: 1px solid rgba(61, 40, 27, 0.18);
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(31, 20, 13, 0.16);
+  backdrop-filter: blur(10px);
+}
+
+.hud__group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.hud__row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.hud__label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: rgba(43, 32, 24, 0.68);
+}
+
+.hud__divider {
+  height: 1px;
+  background: rgba(61, 40, 27, 0.12);
+}
+
+.hud__select {
+  width: 100%;
+  min-height: 2.4rem;
+  padding: 0.5rem 0.72rem;
+  border: 1px solid rgba(61, 40, 27, 0.16);
+  border-radius: 6px;
+  background: rgba(255, 251, 245, 0.96);
+  color: #2b2018;
+  font: inherit;
+  font-size: 0.92rem;
+}
+
+.hud__select:focus-visible {
+  outline: 2px solid rgba(151, 115, 75, 0.5);
+  outline-offset: 2px;
+}
+
+.hud__button {
+  appearance: none;
+  border: 1px solid rgba(61, 40, 27, 0.16);
+  background: rgba(255, 251, 245, 0.96);
+  color: #2b2018;
+  padding: 0.55rem 0.8rem;
+  min-height: 2.4rem;
+  border-radius: 6px;
+  font: inherit;
+  font-size: 0.92rem;
+  cursor: pointer;
+  transition: background-color 120ms ease, border-color 120ms ease, color 120ms ease,
+    transform 120ms ease, box-shadow 120ms ease;
+}
+
+.hud__button:hover {
+  background: #fffaf3;
+  border-color: rgba(106, 74, 51, 0.32);
+  box-shadow: 0 6px 18px rgba(37, 25, 17, 0.08);
+}
+
+.hud__button:active {
+  transform: translateY(1px);
+}
+
+.hud__button:focus-visible {
+  outline: 2px solid rgba(151, 115, 75, 0.5);
+  outline-offset: 2px;
+}
+
+.hud__button--active,
+.hud__button--accent {
+  border-color: rgba(106, 74, 51, 0.34);
+  background: #efe0cc;
+}
+
+.hud__button--active {
+  color: #1f1813;
+  box-shadow: inset 0 0 0 1px rgba(106, 74, 51, 0.12);
+}
+
+.hud__button:disabled {
+  cursor: progress;
+  opacity: 0.72;
+  box-shadow: none;
+}
+
+.hud__status {
+  min-height: 1.25rem;
+  font-size: 0.85rem;
+  color: rgba(43, 32, 24, 0.82);
+}
+
+.hud__status[data-tone="error"] {
+  color: #7a2d1f;
+}
+
+.hud__meta {
+  min-height: 1.2rem;
+  font-size: 0.84rem;
+  color: rgba(43, 32, 24, 0.84);
+}
+
+.hud__size-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+.hud__field {
+  display: grid;
+  gap: 0.28rem;
+}
+
+.hud__field-label {
+  font-size: 0.76rem;
+  color: rgba(43, 32, 24, 0.74);
+}
+
+.hud__input {
+  width: 100%;
+  min-height: 2.4rem;
+  box-sizing: border-box;
+  padding: 0.5rem 0.64rem;
+  border: 1px solid rgba(61, 40, 27, 0.16);
+  border-radius: 6px;
+  background: rgba(255, 251, 245, 0.96);
+  color: #2b2018;
+  font: inherit;
+  font-size: 0.92rem;
+}
+
+.hud__input:focus-visible {
+  outline: 2px solid rgba(151, 115, 75, 0.5);
+  outline-offset: 2px;
+}
+
+.hud__input:disabled {
+  opacity: 0.62;
+  cursor: not-allowed;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+noscript {
+  position: fixed;
+  inset: auto 1rem 1rem 1rem;
+  z-index: 2;
+  padding: 0.75rem 1rem;
+  background: rgba(244, 237, 226, 0.92);
+  border: 1px solid rgba(61, 40, 27, 0.18);
+  border-radius: 8px;
+}
+
+@media (max-width: 640px) {
+  .hud {
+    top: auto;
+    right: 0.75rem;
+    bottom: 0.75rem;
+    left: 0.75rem;
+    width: auto;
+    max-height: min(66vh, 34rem);
+    padding: 0.75rem;
+  }
+
+  .hud__button {
+    flex: 1 1 calc(50% - 0.25rem);
+  }
+
+  .hud__row {
+    grid-template-columns: 1fr;
+  }
+
+  .hud__size-grid {
+    grid-template-columns: 1fr;
+  }
+}

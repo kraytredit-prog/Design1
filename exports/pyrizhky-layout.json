@@ -1,0 +1,522 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "templateId": "marmit",
+      "position": [
+        0.425,
+        0,
+        -0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.74,
+        1,
+        0.92
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "menuScroll",
+      "position": [
+        -4.35,
+        2.18,
+        2.45
+      ],
+      "rotation": [
+        0,
+        1.5708,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {
+        "title": "Menu",
+        "items": [
+          {
+            "label": "Meat pie",
+            "price": "79"
+          },
+          {
+            "label": "Potato pie",
+            "price": "65"
+          },
+          {
+            "label": "Cabbage pie",
+            "price": "62"
+          },
+          {
+            "label": "Uzvar",
+            "price": "48"
+          }
+        ]
+      }
+    },
+    {
+      "templateId": "menuScroll",
+      "position": [
+        -4.35,
+        2.18,
+        4.6
+      ],
+      "rotation": [
+        0,
+        1.5708,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {
+        "title": "Season",
+        "items": [
+          {
+            "label": "Cheese pie",
+            "price": "92"
+          },
+          {
+            "label": "Berry tart",
+            "price": "89"
+          },
+          {
+            "label": "Soup",
+            "price": "95"
+          },
+          {
+            "label": "Filter coffee",
+            "price": "55"
+          }
+        ]
+      }
+    },
+    {
+      "templateId": "menuScroll",
+      "position": [
+        4.45,
+        2.18,
+        3
+      ],
+      "rotation": [
+        0,
+        -1.5708,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {
+        "title": "Breakfast",
+        "items": [
+          {
+            "label": "Syrnyky",
+            "price": "118"
+          },
+          {
+            "label": "Omelet",
+            "price": "96"
+          },
+          {
+            "label": "Latte",
+            "price": "68"
+          },
+          {
+            "label": "Cocoa",
+            "price": "62"
+          }
+        ]
+      }
+    },
+    {
+      "templateId": "menuScroll",
+      "position": [
+        0.95,
+        2.18,
+        6.2
+      ],
+      "rotation": [
+        0,
+        3.1416,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {
+        "title": "Coffee",
+        "items": [
+          {
+            "label": "Cookie",
+            "price": "38"
+          },
+          {
+            "label": "Croissant",
+            "price": "69"
+          },
+          {
+            "label": "Espresso",
+            "price": "48"
+          },
+          {
+            "label": "Flat white",
+            "price": "72"
+          }
+        ]
+      }
+    },
+    {
+      "templateId": "sconce",
+      "position": [
+        -4.29,
+        3.42,
+        2.45
+      ],
+      "rotation": [
+        0,
+        1.5708,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "sconce",
+      "position": [
+        -4.29,
+        3.42,
+        4.6
+      ],
+      "rotation": [
+        0,
+        1.5708,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "sconce",
+      "position": [
+        4.39,
+        3.42,
+        3
+      ],
+      "rotation": [
+        0,
+        -1.5708,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "sconce",
+      "position": [
+        0.95,
+        3.42,
+        6.1
+      ],
+      "rotation": [
+        0,
+        3.1416,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "tagline",
+      "position": [
+        -4.35,
+        1.35,
+        5.4
+      ],
+      "rotation": [
+        0,
+        1.5708,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "bench",
+      "position": [
+        4,
+        0,
+        4.2
+      ],
+      "rotation": [
+        0,
+        3.1416,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "table4",
+      "position": [
+        2.4,
+        0,
+        3.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "table3",
+      "position": [
+        2.4,
+        0,
+        5.25
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "table4",
+      "position": [
+        -0.95,
+        0,
+        3.75
+      ],
+      "rotation": [
+        0,
+        1.5708,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "table3",
+      "position": [
+        -2.45,
+        0,
+        5.15
+      ],
+      "rotation": [
+        0,
+        1.5708,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "mirror",
+      "position": [
+        -3.9,
+        1.44,
+        6
+      ],
+      "rotation": [
+        0,
+        2.7646,
+        0.03
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "counterWide",
+      "position": [
+        -1.2,
+        0,
+        -3.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "counterSide",
+      "position": [
+        -3.9,
+        0,
+        -2.05
+      ],
+      "rotation": [
+        0,
+        1.5708,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "counterIsland",
+      "position": [
+        -0.15,
+        0,
+        -1.65
+      ],
+      "rotation": [
+        0,
+        1.5708,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "pendant",
+      "position": [
+        2.4,
+        3.55,
+        3.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "pendant",
+      "position": [
+        2.4,
+        3.55,
+        5.25
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "pendant",
+      "position": [
+        -0.95,
+        3.55,
+        3.75
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {}
+    },
+    {
+      "templateId": "pendant",
+      "position": [
+        -2.45,
+        3.55,
+        5.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "options": {}
+    }
+  ]
+}
